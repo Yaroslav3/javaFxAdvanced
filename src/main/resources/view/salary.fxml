@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="353.0" prefWidth="587.0" xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.SalaryController">
+    <children>
+        <TextField fx:id="textField1" layoutX="36.0" layoutY="40.0" prefHeight="25.0" prefWidth="94.0" />
+        <TextField fx:id="textField2" layoutX="36.0" layoutY="75.0" prefHeight="25.0" prefWidth="94.0" />
+        <TextField fx:id="textField3" layoutX="36.0" layoutY="111.0" prefHeight="25.0" prefWidth="94.0" />
+        <TextField fx:id="textField4" layoutX="36.0" layoutY="149.0" prefHeight="25.0" prefWidth="94.0" />
+        <TextField fx:id="textField5" layoutX="36.0" layoutY="183.0" prefHeight="25.0" prefWidth="94.0" />
+        <Label fx:id="label1" layoutX="141.0" layoutY="44.0" prefHeight="17.0" prefWidth="114.0" text="Оклад" />
+        <Label fx:id="label2" layoutX="141.0" layoutY="79.0" prefHeight="17.0" prefWidth="114.0" text="Приработок" />
+        <Label fx:id="label3" layoutX="141.0" layoutY="115.0" prefHeight="17.0" prefWidth="114.0" text="Рабочие дни" />
+        <Label fx:id="label4" layoutX="141.0" layoutY="153.0" prefHeight="17.0" prefWidth="114.0" text="Северная надбавка" />
+        <Label fx:id="label5" layoutX="141.0" layoutY="187.0" prefHeight="17.0" prefWidth="114.0" text="Дни в поле" />
+        <TextField fx:id="textField6" layoutX="36.0" layoutY="258.0" prefHeight="25.0" prefWidth="114.0" />
+        <Label fx:id="label6" layoutX="160.0" layoutY="262.0" prefHeight="17.0" prefWidth="114.0" text="Ваша зарплата " />
+        <ImageView fitHeight="216.0" fitWidth="230.0" layoutX="318.0" layoutY="55.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@../photo/dollars.jpg" />
+            </image>
+        </ImageView>
+        <Label layoutX="274.0" layoutY="14.0" prefHeight="17.0" prefWidth="217.0" text="salary " textFill="#eb0808" />
+      <Button fx:id="buttonOK" layoutX="318.0" layoutY="258.0" mnemonicParsing="false" text="Рассчитать" />
+      <Button fx:id="buttonClear" layoutX="480.0" layoutY="258.0" mnemonicParsing="false" text="Очистить" />
+    </children>
+</AnchorPane>

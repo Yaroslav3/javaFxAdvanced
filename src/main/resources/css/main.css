@@ -1,0 +1,15 @@
+button-now {
+    -fx-background-color: #3F51B5 ;
+    -fx-text-fill: WHITE;
+}
+
+.button-now:hover {
+    -fx-background-color: rgb(77,102,204);
+}
+
+.button-now:pressed {
+    -fx-background-color: lightseagreen;
+}
+
+.checkBox {
+}

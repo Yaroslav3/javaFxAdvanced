@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.chart.PieChart?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.BeerController">
+   <children>
+      <PieChart fx:id="pieChart" layoutX="34.0" layoutY="16.0" prefHeight="361.0" prefWidth="314.0" title="example" />
+      <Button fx:id="button" layoutX="392.0" layoutY="303.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="52.0" text="OK" />
+      <TextField fx:id="textField" layoutX="392.0" layoutY="58.0" prefHeight="25.0" prefWidth="52.0" />
+      <TextField fx:id="textFieldTwo" layoutX="392.0" layoutY="108.0" prefHeight="25.0" prefWidth="52.0" />
+      <TextField fx:id="textFieldThree" layoutX="392.0" layoutY="153.0" prefHeight="10.0" prefWidth="52.0" />
+      <Label layoutX="475.0" layoutY="62.0" prefHeight="17.0" prefWidth="100.0" text="Staropramen" />
+      <Label layoutX="475.0" layoutY="112.0" prefHeight="17.0" prefWidth="73.0" text="Hoegaarden" />
+      <Label layoutX="475.0" layoutY="157.0" prefHeight="17.0" prefWidth="73.0" text="Stella Artois" />
+      <Button fx:id="buttonClear" layoutX="475.0" layoutY="303.0" mnemonicParsing="false" text="Clear" />
+   </children>
+</AnchorPane>
